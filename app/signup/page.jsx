@@ -5,7 +5,7 @@ import { Box, Stack, TextField, Button, Typography } from '@mui/material';
 import { useCreateUserWithEmailAndPassword, useSendEmailVerification } from 'react-firebase-hooks/auth';
 import { auth } from '@/firebase';
 
-export default function signup (){
+export default function SignUp (){
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordConfirm, setPasswordConfirm] = useState('');

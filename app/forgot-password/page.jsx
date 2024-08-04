@@ -59,7 +59,7 @@ export default function ForgotPassword (){
         }}
         
         >
-          Don't have an account? Sign Up
+          Don&apos;t have an account? Sign Up
         </Typography>
       </Box>
     </Box>

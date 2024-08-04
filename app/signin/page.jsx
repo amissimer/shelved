@@ -88,7 +88,7 @@ export default function SignIn (){
           }
         }}
         >
-          Don't have an account? <span color="#44576D">Sign Up</span>
+          Don&apos;t have an account? <span color="#44576D">Sign Up</span>
         </Typography>
       </Box>
     </Box>
