@@ -10,6 +10,7 @@ export default function ForgotPassword (){
   const router = useRouter();
   const resetEmail = () => {
     sendPasswordResetEmail(auth, email)
+    router.push('/signin')
   }
 
   return (
@@ -32,7 +33,8 @@ export default function ForgotPassword (){
 
         </TextField>
         <Button 
-        onClick={() => resetEmail()}
+        onClick={() => resetEmail()
+        }
         disabled={!email}
         variant={'contained'}
         sx={{
